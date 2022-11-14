@@ -15,11 +15,15 @@ namespace _01._Cinema
 
             switch (type)
             {
-                case "Premiere": ticketPrice = 12; break;
-                case "Normal": ticketPrice = 7.50; break;
-                case "Discount": ticketPrice = 5.00; break;
-                
-                   
+                case "Premiere":
+                    ticketPrice = 12;
+                    break;
+                case "Normal":
+                    ticketPrice = 7.50;
+                    break;
+                case "Discount": 
+                    ticketPrice = 5.00;
+                    break;                 
             }
 
             double sum = totalSeats * ticketPrice;
